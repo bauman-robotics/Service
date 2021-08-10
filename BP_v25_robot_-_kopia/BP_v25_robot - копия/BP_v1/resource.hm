@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by BP_v1.rc
+//
+#define HIDC_RADIO_CONNECT_INDICATOR    0x80660456    // IDD_BP_V1_DIALOG

@@ -1,0 +1,271 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\BP_v1.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BP_v1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BP_V1_DIALOG DIALOGEX 0, 0, 697, 356
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "BP_v1"
+FONT 10, "Segoe UI", 700, 0, 0xCC
+BEGIN
+    GROUPBOX        "Фильтр ресайзера",IDC_STATIC_FILTER_RES,11,71,119,102,WS_GROUP
+    GROUPBOX        "Автоматический поиск",IDC_STATIC_AUTO_FIND,11,185,119,160
+    GROUPBOX        "Поиск по 2 точкам",IDC_STATIC_FIND_IN_2_FRAME,16,208,106,73
+    PUSHBUTTON      "Гор. кадр",IDC_BOT_FIND_HOT_FRMAE,23,220,56,14
+    PUSHBUTTON      "Хол. кадр",IDC_BOT_FIND_COOL_FRMAE,23,239,56,14
+    PUSHBUTTON      "Поиск",IDC_BUT_FIND_IN_2_FRAME,23,261,34,14
+    GROUPBOX        "Поиск по 1 кадру",IDC_STATIC_FIND_IN_1_FRAME,16,295,105,35
+    PUSHBUTTON      "Поиск",IDC_BUT_FIND_IN_1_FRAME,23,309,34,14
+    GROUPBOX        "Список сбойных точек",IDC_STATIC_LIST_OF_BP,142,29,157,99
+    PUSHBUTTON      "Сброс списка",IDC_BOT_RESET_LIST_POINTS,162,55,78,14
+    PUSHBUTTON      "Отчет",IDC_BOT_LIST_OF_POINTS_REPORT,162,73,77,14
+    PUSHBUTTON      "Добавить точку под крестом",IDC_BOT_ADD_POINT_UNDER_KREST,146,299,148,19
+    PUSHBUTTON      "Чтение с флеш",IDC_BOT_READ_FROM_FLASH,162,109,105,14
+    GROUPBOX        "Точка на замену",IDC_STATIC_POINT_TO_CHANGE,141,135,158,210,WS_GROUP
+    PUSHBUTTON      "Сохранение на флеш",IDC_BOT_SAVE_TO_FLASH2,162,91,105,14
+    PUSHBUTTON      "Удалить точку под крестом",IDC_BOT_DEL_POINT_UNDER_KREST,146,321,148,19
+    PUSHBUTTON      "Ввод",IDC_BUT_ENTER,603,315,74,28
+    CONTROL         "-2,-2",IDC_RADIO_N2_N2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_GROUP,146,147,28,28
+    CONTROL         "-1,-2",IDC_RADIO_N1_N2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,176,147,28,28
+    CONTROL         " 0,-2",IDC_RADIO_0_N2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,206,147,28,28
+    CONTROL         "1,-2",IDC_RADIO_P1_N2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,236,147,28,28
+    CONTROL         "2,-2",IDC_RADIO_P2_N2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,266,147,28,28
+    CONTROL         "-2,-1",IDC_RADIO_N2_N1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,146,177,28,28
+    CONTROL         "-1,-1",IDC_RADIO_N1_N1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,176,177,28,28
+    CONTROL         " 0,-1",IDC_RADIO_0_N1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,206,177,28,28
+    CONTROL         "1,-1",IDC_RADIO_P1_N1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,236,177,28,28
+    CONTROL         "2,-1",IDC_RADIO_P2_N1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,266,177,28,28
+    CONTROL         "-2, 0",IDC_RADIO_N2_0,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,146,207,28,28
+    CONTROL         "-1, 0",IDC_RADIO_N1_0,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,176,207,28,28
+    CONTROL         "Auto",IDC_RADIO_0_0,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,206,207,28,28
+    CONTROL         "1, 0",IDC_RADIO_P1_0,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,236,207,28,28
+    CONTROL         "2, 0",IDC_RADIO_P2_0,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,266,207,28,28
+    CONTROL         "-2, 1",IDC_RADIO_N2_P1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,146,237,28,28
+    CONTROL         "-1, 1",IDC_RADIO_N1_P1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,176,237,28,28
+    CONTROL         "0, 1",IDC_RADIO_0_P1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,206,237,28,28
+    CONTROL         "1, 1",IDC_RADIO_P1_P1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,236,237,28,28
+    CONTROL         "2, 1",IDC_RADIO_P2_P1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,266,237,28,28
+    CONTROL         "-2, 2",IDC_RADIO_N2_P2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,146,267,28,28
+    CONTROL         "-1, 2",IDC_RADIO_N1_P2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,176,267,28,28
+    CONTROL         "0, 2",IDC_RADIO_0_P2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,206,267,28,28
+    CONTROL         "1, 2",IDC_RADIO_P1_P2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,236,267,28,28
+    CONTROL         "2, 2",IDC_RADIO_P2_P2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,266,267,28,28
+    CONTROL         "Стоп кадр",IDC_CHECK_STOP_KADR,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,14,34,59,13
+    CONTROL         "Вкл. креста",IDC_CHECK_VKL_KRESTA,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,14,52,60,12
+    CONTROL         "Rcos",IDC_RADIO_FILTER_RCOS,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_GROUP,18,83,73,14
+    CONTROL         "Бикубический",IDC_RADIO_FILTER_BIKUBE,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,18,104,74,14
+    CONTROL         "Билинейный",IDC_RADIO_FILTER_BILINE,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,18,125,74,14
+    CONTROL         "Нет",IDC_RADIO_FILTER_NOT,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,18,146,73,14
+    EDITTEXT        IDC_EDIT_FIND_IN_2_FRAME,60,262,40,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_FIND_IN_2_FRAME,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HOTTRACK,101,261,11,14
+    EDITTEXT        IDC_EDIT_FIND_IN_1_FRAME,60,310,41,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_FIND_IN_1_FRAME,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,101,309,10,14
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,1,683,348
+    GROUPBOX        "Масштаб",IDC_STATIC_SCALE,313,29,134,99,WS_GROUP
+    PUSHBUTTON      "NW",IDC_BUT_DRIVE_KREST_NW,321,150,35,35
+    GROUPBOX        "Управление крестом",IDC_STATIC_KREST_CONTROL,313,135,134,169,WS_GROUP
+    PUSHBUTTON      "N",IDC_BUT_DRIVE_KREST_N,361,150,35,35
+    PUSHBUTTON      "NE",IDC_BUT_DRIVE_KREST_NE,401,150,35,35
+    PUSHBUTTON      "W",IDC_BUT_DRIVE_KREST_W,321,190,35,35
+    PUSHBUTTON      "Centr",IDC_BUT_DRIVE_KREST_CENTR,361,190,35,35,WS_GROUP
+    PUSHBUTTON      "E",IDC_BUT_DRIVE_KREST_E,401,190,35,35
+    PUSHBUTTON      "SW",IDC_BUT_DRIVE_KREST_SW,321,230,35,35
+    PUSHBUTTON      "S",IDC_BUT_DRIVE_KREST_S,361,230,35,35
+    PUSHBUTTON      "SE",IDC_BUT_DRIVE_KREST_SE,401,230,35,35
+    CONTROL         "x1",IDC_RADIO_X1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,321,280,24,10
+    CONTROL         "x3",IDC_RADIO_X3,"Button",BS_AUTORADIOBUTTON,348,280,24,10
+    CONTROL         "x10",IDC_RADIO_X10,"Button",BS_AUTORADIOBUTTON,375,280,28,10
+    CONTROL         "100",IDC_RADIO_X100,"Button",BS_AUTORADIOBUTTON,406,280,29,10
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,318,316,118,21
+    GROUPBOX        "Цвет креста",IDC_STATIC_KREST_COLOR,314,306,133,39
+    GROUPBOX        "Выбор центра отображения области",IDC_STATIC_CHOOSE_ARIA,459,29,214,54
+    PUSHBUTTON      "Крест",IDC_BUT_AREA_KREST,475,42,106,16
+    PUSHBUTTON      "Центр кадра",IDC_BUT_AREA_CENTER,475,61,106,16
+    LISTBOX         IDC_LIST_TERMINAL,460,94,230,209,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CMD,460,324,135,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC_SCALE_DRIVE_KREST,318,271,123,25,WS_GROUP
+    COMBOBOX        IDC_COMBO_COM,94,48,52,106,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "x1",IDC_RADIO_M11,"Button",BS_AUTORADIOBUTTON,366,42,30,10
+    CONTROL         "x2",IDC_RADIO_M12,"Button",BS_AUTORADIOBUTTON,366,56,30,10
+    CONTROL         "x3",IDC_RADIO_M13,"Button",BS_AUTORADIOBUTTON,366,70,30,10
+    CONTROL         "x4",IDC_RADIO_M14,"Button",BS_AUTORADIOBUTTON,366,84,30,10
+    CONTROL         "x5",IDC_RADIO_M15,"Button",BS_AUTORADIOBUTTON,366,98,30,10
+    CONTROL         "x6",IDC_RADIO_M16,"Button",BS_AUTORADIOBUTTON,366,112,30,10
+    COMBOBOX        IDC_COMBO_SPEED,25,48,48,231,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "COM port",IDC_STATIC_COM_PORTS,88,30,71,46
+    GROUPBOX        "Baud rate",IDC_STATIC_BAUD_RATE,11,30,71,46
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONNECT,174,40,89,30
+    CONTROL         "Connected:",IDC_RADIO_CONNECT_INDICATOR,"Button",BS_AUTORADIOBUTTON | BS_LEFTTEXT | BS_CENTER | BS_TOP,275,50,57,10
+    GROUPBOX        "",IDC_STATIC_CONNECT_GROUP,166,30,180,46
+    GROUPBOX        "",IDC_STATIC_CONNECTION,270,42,68,23
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BP_V1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 690
+        BOTTOMMARGIN, 349
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "BP_v1.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "BP_v1.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\BP_v1.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
