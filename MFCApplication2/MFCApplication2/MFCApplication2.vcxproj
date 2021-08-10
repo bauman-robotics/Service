@@ -185,6 +185,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Git_decor\Decor_rus\CSerialPort.h" />
     <ClInclude Include="MFCApplication2.h" />
     <ClInclude Include="MFCApplication2Dlg.h" />
     <ClInclude Include="Resource.h" />
@@ -192,6 +193,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Git_decor\Decor_rus\CSerialPort.cpp" />
     <ClCompile Include="MFCApplication2.cpp" />
     <ClCompile Include="MFCApplication2Dlg.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -213,4 +215,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MFCApplication2.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
